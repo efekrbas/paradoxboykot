@@ -293,24 +293,26 @@ export function BoycottGuidesSection() {
             <div className="mt-8 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
               {/* Asset 1: Red Stamp Badge */}
               <div className="border border-ink/20 p-5 bg-ink/5 flex flex-col items-center text-center">
-                <img
-                  src="/favicon.png"
-                  alt="Boykot Atatürk Rozeti"
-                  className="size-24 rounded-full border-2 border-seal object-contain p-1 shadow-md bg-paper"
-                />
+                <div className="size-24 rounded-full border-2 border-ink/20 overflow-hidden bg-black flex items-center justify-center">
+                  <img
+                    src="/boykot-logo.png"
+                    alt="Paradox Boykot Logosu"
+                    className="w-full h-full object-cover"
+                  />
+                </div>
                 <div className="mt-4 font-display text-lg uppercase tracking-tight">
-                  Kırmızı Boykot Rozeti
+                  Boykot Profil Fotoğrafı
                 </div>
                 <div className="font-mono text-[11px] text-mute mt-1">
-                  Steam & Discord Profil Fotoğrafı (512x512)
+                  Steam & Discord İçin (Kare)
                 </div>
                 <a
-                  href="/favicon.png"
-                  download="Boykot-Paradox-Ataturk-Rozet.png"
+                  href="/boykot-logo.png"
+                  download="Boykot-Paradox-Logo.png"
                   className="mt-4 inline-flex items-center gap-1.5 bg-seal text-paper px-4 py-2 font-mono text-xs uppercase tracking-wider hover:brightness-110 transition-colors w-full justify-center"
                 >
                   <Download className="size-3.5" />
-                  <span>Rozeti İndir</span>
+                  <span>Logoyu İndir</span>
                 </a>
               </div>
 
@@ -318,19 +320,19 @@ export function BoycottGuidesSection() {
               <div className="border border-ink/20 p-5 bg-ink/5 flex flex-col items-center text-center">
                 <div className="size-24 rounded-full border-2 border-ink/20 overflow-hidden bg-black flex items-center justify-center">
                   <img
-                    src="/ataturk-transparent.png"
+                    src="/ataturk-portrait.png"
                     alt="Atatürk Portresi"
-                    className="size-20 object-contain"
+                    className="w-full h-full object-cover"
                   />
                 </div>
                 <div className="mt-4 font-display text-lg uppercase tracking-tight">
                   Gazi Atatürk Portresi
                 </div>
                 <div className="font-mono text-[11px] text-mute mt-1">
-                  Şeffaf Arka Planlı Yüksek Çözünürlük
+                  Banlanan Türk Oyuncunun Avatarı
                 </div>
                 <a
-                  href="/ataturk-transparent.png"
+                  href="/ataturk-portrait.png"
                   download="Gazi-Mustafa-Kemal-Ataturk.png"
                   className="mt-4 inline-flex items-center gap-1.5 bg-ink text-paper px-4 py-2 font-mono text-xs uppercase tracking-wider hover:bg-seal transition-colors w-full justify-center"
                 >
