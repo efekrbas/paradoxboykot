@@ -57,7 +57,7 @@ export const metadata: Metadata = {
   ],
   authors: [{ name: "Türk Oyuncu Topluluğu İnisiyatifi" }],
   verification: {
-    google: "P8LGFcyWpxcbAGbAHf_S4QaqpXBSCdJKMl5w2WCUmZo",
+    google: "hYFGZJAo0Z4zRDGxUsflXR2QQ-RwHAbmVURjZO-EBDw",
   },
   robots: {
     index: true,
