@@ -121,11 +121,34 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
+  const jsonLd = {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "Boykot Paradox",
+    "url": "https://boykotparadox.vercel.app/",
+    "description": "Paradox Interactive resmi Discord'undaki Atatürk'e hakaret ve Türk oyuncuları sansürleme skandalına karşı başlatılan 1 yıldız boykot kampanyası. Steam, Metacritic, Trustpilot platformlarında sesimizi duyuruyoruz.",
+    "inLanguage": "tr",
+    "publisher": {
+      "@type": "Organization",
+      "name": "Türk Oyuncu Topluluğu İnisiyatifi",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://boykotparadox.vercel.app/ataturk-human.jpg"
+      }
+    }
+  };
+
   return (
     <html
       lang="tr"
       className={`${anton.variable} ${inter.variable} ${jetbrainsMono.variable}`}
     >
+      <head>
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+        />
+      </head>
       <body className="bg-ink antialiased selection:bg-seal selection:text-paper">
         {children}
         <Analytics />
