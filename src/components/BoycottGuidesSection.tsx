@@ -320,7 +320,7 @@ export function BoycottGuidesSection() {
               <div className="border border-ink/20 p-5 bg-ink/5 flex flex-col items-center text-center">
                 <div className="size-24 rounded-full border-2 border-ink/20 overflow-hidden bg-black flex items-center justify-center">
                   <img
-                    src="/ataturk-portrait.png"
+                    src="/ataturk-portrait.jpg"
                     alt="Atatürk Portresi"
                     className="w-full h-full object-cover"
                   />
@@ -332,8 +332,8 @@ export function BoycottGuidesSection() {
                   Banlanan Türk Oyuncunun Avatarı
                 </div>
                 <a
-                  href="/ataturk-portrait.png"
-                  download="Gazi-Mustafa-Kemal-Ataturk.png"
+                  href="/ataturk-portrait.jpg"
+                  download="Gazi-Mustafa-Kemal-Ataturk.jpg"
                   className="mt-4 inline-flex items-center gap-1.5 bg-ink text-paper px-4 py-2 font-mono text-xs uppercase tracking-wider hover:bg-seal transition-colors w-full justify-center"
                 >
                   <Download className="size-3.5" />
