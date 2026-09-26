@@ -345,9 +345,9 @@ export function CampaignClient({
         <div className="mx-auto flex max-w-[1240px] items-center justify-between gap-2 sm:gap-4 px-3 sm:px-5 py-3 sm:py-3.5">
           <button
             type="button"
-            onClick={() => scrollTo("anit")}
+            onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
             className="flex items-center gap-2 sm:gap-3 text-left focus:outline-none group cursor-pointer"
-            title="Atatürk Anıtı'na Git"
+            title="En Üste Git"
           >
             <img
               src="/favicon.png"
